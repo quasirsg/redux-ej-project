@@ -12,26 +12,32 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.min.css"
-      integrity="sha512-8jdwayz5n8F2cnW26l9vpV6+yGOcRAqz6HTu+DQ3FtVIAts2gTdlFZOGpYhvBMXkWEgxPN3Y22UWyZXuDowNLA=="
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+
     />
   </head>
   <body>
+    <li id="item" class="list-group-item d-none">
+      <input type="checkbox" name="" class="form-check-input" id="">
+      <span></span>
+      <button type="button" class="pull-right btn btn-outline-secondary">
+        <i class="fa fa-trash"></i>
+      </button>
+    </li>
+
     <div class="container">
         <div class="row">
             <div class="offset-md3 col-md-6">
+                <br>
 
+                <input id="txtNuevaNota" type="text" class="form-control" placeholder="Agregar nota..."> 
+
+                <br>
+                <ul id="itemList" class="list-group list-group-flush">
+                </ul>
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
